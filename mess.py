@@ -657,8 +657,4 @@ while(True):
     elif cv2.waitKey(20) & 0xFF == ord('t'):
         timeShow = (not timeShow)
         
-
-"""mouseX = bot.xs[bot.putFlagsOn[0]] + bot.screenXStart
-mouseY = bot.ys[bot.putFlagsOn[0]] + bot.screenYStart
-bot.change_mouse_position(mouseX + 7, mouseY + 7)"""
 #bot.image_setup()
